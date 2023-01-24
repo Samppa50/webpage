@@ -1,0 +1,52 @@
+
+        html{
+            scroll-behavior: smooth;
+        }
+        .container {
+            display: flex;
+            background-color: rgb(121, 121, 121);
+            height: 30vh;
+            width: 50vh;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: 0px;
+
+        }
+        .box {
+            background-color: rgb(121, 121, 121);
+            color: white;
+            font-size: 15px;
+            height: 7vh;
+            width:  40vh;
+            text-align: center;
+            align-content: center;
+            margin-top: 10px;
+            border-radius: 15px;
+        
+        }
+        img.rounded-corners{
+            border-radius: 15px;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 35px;
+            background-color: rgb(121, 121, 121);
+            color: beige;
+
+        }
+        .lbox{
+            display: flex;
+            background-color: rgb(150, 150, 150);
+            height: 10vh;
+            width: 100vh;
+            border-radius: 15px;
+            justify-content: space-evenly;
+            margin-left: 50vh;
+            position: relative;
+            bottom: 10px;
+            
+        }
+
